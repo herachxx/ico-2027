@@ -1,32 +1,31 @@
-# ICO 2027 Cybersecurity Preparation
+# ICO 2027 Cybersecurity Journey
 
-Personal cybersecurity training repository for International Cybersecurity Olympiad 2027 preparation.
-
-## Goals
-
-- Build strong Linux fundamentals
-- Practice CTF problem solving
-- Learn cybersecurity concepts through hands-on challenges
-- Document solutions and lessons learned
+Personal cybersecurity preparation repository for the International
+Cybersecurity Olympiad (ICO) 2027.
 
 ## Platforms
 
-- picoCTF
-- CTFtime
-- CyLab Security Academy
+-   picoCTF
+-   CTFtime
+-   Cybersecurity learning platforms
 
-## Write-ups
+## Completed Write-ups
 
-Completed challenges:
+-   picoCTF - Log Hunt
+-   picoCTF - My Git
 
-- [picoCTF - Log Hunt](writeups/picoCTF_Log_Hunt.md)
-- [picoCTF - My Git](writeups/picoCTF_My_Git.md)
+## Current Learning Areas
 
-## Topics
+-   Linux fundamentals
+-   Git security
+-   Web security
+-   Networking
+-   Cryptography
+-   Digital forensics
 
-- Linux
-- Git security
-- Forensics
-- Web security
-- Cryptography
-- Networking
+## Learning Philosophy
+
+Solve → understand → document → apply.
+
+This repository focuses on deep understanding, not only collecting
+flags.
