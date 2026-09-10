@@ -27,7 +27,7 @@ ico{something_here}
 
 `Jeopardy-style CTF` means there are many separate tasks from different categories. Each task gives points and one or more flags.
 
-| Category | Meaning | Simple explanation |
+| Category | Meaning | Explanation |
 |---|---|---|
 | Web | Web security | Websites, login forms, APIs, cookies, WordPress, and authorization bugs. |
 | Crypto | Cryptography | Weak hashes, signatures, random generators, or encryption logic. |
@@ -96,6 +96,8 @@ ico{258da6df9fcf12cf110d42dd77d7937f}
 ## 1. Rev Zero
 
 ### Challenge
+
+![Task Description](/ico_qualifying_round/tasks/rev_zero.webp)
 
 ```text
 The terminal is locked. The code is right in front of you.
@@ -186,6 +188,8 @@ ico{R3v3R$3_fR0m_Z3r0}
 ## 2. Wolf Protocol
 
 ### Challenge
+
+![Task Description](/ico_qualifying_round/tasks/wolf_protocol.webp)
 
 ```text
 The binary speaks only one language. Are you fluent?
@@ -317,6 +321,8 @@ ico{w0lves_see_th3_h1dd3n_truth_42}
 
 ### Challenge
 
+![Task Description](/ico_qualifying_round/tasks/can_you_hear_the_flag.webp)
+
 ```text
 Just a picture. Nothing to see here.
 ```
@@ -381,6 +387,8 @@ ico{a7f3c91e2b6d48f5c0a19d83e72b4f61}
 ## 4. Five Shards
 
 ### Challenge
+
+![Task Description](/ico_qualifying_round/tasks/five_shards.webp)
 
 ```text
 The flag was shattered across five files. Each shard is a piece of a larger puzzle - but not every file is what it seems, and not every secret is obvious.
@@ -585,6 +593,8 @@ ico{5h4rd5_4r3_b3tt3r_t0g3th3r!}
 
 ### Challenge
 
+![ Task Description](/ico_qualifying_round/tasks/northstar.webp)
+
 ```text
 For years, Northstar Systems guided critical deployments across the globe. After a sudden breach locked the operations center, the company’s internal portal was taken offline. Rumors suggest the attackers left two flags behind: one buried in the authentication system, and another hidden within the deployment infrastructure.
 https://task1.cyberolympiad.kz
@@ -648,6 +658,8 @@ ico{721427dd34030ef0c0458d1e5067395e}
 ## 6. Backdoor
 
 ### Challenge
+
+![ Task Description](/ico_qualifying_round/tasks/backdoor.webp)
 
 ```text
 Once a thriving community blog, this WordPress site was abandoned after its administrator vanished without a trace. The site remains online, filled with forgotten posts and an oddly persistent plugin installed by the last person to access the dashboard.
@@ -765,6 +777,8 @@ ico{258da6df9fcf12cf110d42dd77d7937f}
 ## 7. PixelMart
 
 ### Challenge
+
+![ Task Description](/ico_qualifying_round/tasks/pixelmart.webp)
 
 ```text
 The online store "PixelMart" gives out bonus codes using its own random generator and prides itself on its integrity.
@@ -891,6 +905,8 @@ ICO{f1gur3_1t_0ut_y0urs3lf_th3n_3xpl0it}
 
 ### Challenge
 
+![ Task Description](/ico_qualifying_round/tasks/vip_club.webp)
+
 ```text
 A private club issues guest passes based on a secret known only to them. You've been given a standard guest pass - enter as an admin.
 nc 94.131.84.228 33006
@@ -989,6 +1005,8 @@ The service accepted the forged admin pass and returned the VIP Club flag.
 
 ### Challenge
 
+![ Task Description](/ico_qualifying_round/tasks/journal_operator.webp)
+
 ```text
 The program keeps a transaction log. Regular users are not allowed to use it - the service itself informs them of this upon login.
 nc 94.131.84.228 33102
@@ -1071,6 +1089,8 @@ ICO{str1pp3d_but_st1ll_wr1t3abl3}
 ## 10. AEZAKMI
 
 ### Challenge
+
+![Task Description](/ico_qualifying_round/tasks/aezakmi.webp)
 
 ```text
 An old arcade machine is asking for a name for its high score table.
@@ -1182,11 +1202,11 @@ ICO{n0_symb0ls_st1ll_p0pp3d_rd1}
 
 # Русский
 
-## 0. Контекст и словарь для новичков
+## 0. Контекст и словарь
 
-`ICO` расшифровывается как `International Cybersecurity Olympiad`, то есть Международная олимпиада по кибербезопасности. Отборочный этап Казахстана проходил в формате `CTF`.
+`ICO` расшифровывается как `International Cybersecurity Olympiad`, то есть Международная олимпиада по кибербезопасности. Отборочный этап Казахстана проходил в формате `CTF - Jeopardy`.
 
-`CTF` значит `Capture The Flag`, то есть “захвати флаг”. В CTF флаг - это секретная строка внутри задания. Я решаю задачу, нахожу флаг и отправляю его на платформу.
+`CTF` значит `Capture The Flag`, то есть “захвати флаг”. В CTF флаг - это секретная строка внутри задания.
 
 Формат флагов был примерно такой:
 
@@ -1195,9 +1215,7 @@ ICO{something_here}
 ico{something_here}
 ```
 
-Регистр важен. `ICO{...}` и `ico{...}` - разные строки.
-
-| Категория | Что значит | Простое объяснение |
+| Категория | Что значит | Объяснение |
 |---|---|---|
 | Web | Веб-безопасность | Сайты, логины, API, cookies, WordPress и проблемы доступа. |
 | Crypto | Криптография | Слабые хеши, подписи, генераторы случайных чисел или шифрование. |
@@ -1207,7 +1225,7 @@ ico{something_here}
 
 Словарь:
 
-| Термин | Простое объяснение |
+| Термин | Объяснение |
 |---|---|
 | API | Интерфейс, через который программы общаются друг с другом. |
 | JSON | Текстовый формат данных, например `{"ok":true}`. |
@@ -1225,7 +1243,7 @@ ico{something_here}
 
 Инструменты:
 
-| Инструмент | Зачем использовал |
+| Инструмент | Зачем использовала |
 |---|---|
 | `file` | Узнать настоящий тип файла. |
 | `strings` | Достать читаемый текст. |
@@ -1251,7 +1269,7 @@ ico{something_here}
 | 5 | NorthStar | Web | `ico{721427dd34030ef0c0458d1e5067395e}` |
 | 6 | Backdoor | Web / WordPress | `ico{7519ee9f05a6a11ca96cc044c971b6ae}` |
 | 7 | PixelMart | Crypto / PRNG | `ICO{f1gur3_1t_0ut_y0urs3lf_th3n_3xpl0it}` |
-| 8 | VIP Club | Crypto | Решено командой `S <data> <token>` ниже |
+| 8 | VIP Club | Crypto | Забыла записать сам флаг |
 | 9 | Journal Operator | Pwn | `ICO{str1pp3d_but_st1ll_wr1t3abl3}` |
 | 10 | AEZAKMI | Pwn | `ICO{n0_symb0ls_st1ll_p0pp3d_rd1}` |
 
@@ -1266,6 +1284,8 @@ ico{258da6df9fcf12cf110d42dd77d7937f}
 ## 1. Rev Zero
 
 ### Условие
+
+![Task Description](/ico_qualifying_round/tasks/rev_zero.webp)
 
 ```text
 The terminal is locked. The code is right in front of you.
@@ -1343,6 +1363,8 @@ ico{R3v3R$3_fR0m_Z3r0}
 ## 2. Wolf Protocol
 
 ### Условие
+
+![Task Description](/ico_qualifying_round/tasks/wolf_protocol.webp)
 
 ```text
 The binary speaks only one language. Are you fluent?
@@ -1433,6 +1455,8 @@ ico{w0lves_see_th3_h1dd3n_truth_42}
 
 ### Условие
 
+![Task Description](/ico_qualifying_round/tasks/can_you_hear_the_flag.webp)
+
 ```text
 Just a picture. Nothing to see here.
 ```
@@ -1475,6 +1499,8 @@ ico{a7f3c91e2b6d48f5c0a19d83e72b4f61}
 ## 4. Five Shards
 
 ### Условие
+
+![Task Description](/ico_qualifying_round/tasks/five_shards.webp)
 
 ```text
 The flag was shattered across five files. Each shard is a piece of a larger puzzle - but not every file is what it seems, and not every secret is obvious.
@@ -1611,6 +1637,8 @@ ico{5h4rd5_4r3_b3tt3r_t0g3th3r!}
 
 ### Условие
 
+![Task Description](/ico_qualifying_round/tasks/northstar.webp)
+
 ```text
 For years, Northstar Systems guided critical deployments across the globe. After a sudden breach locked the operations center, the company’s internal portal was taken offline. Rumors suggest the attackers left two flags behind: one buried in the authentication system, and another hidden within the deployment infrastructure.
 https://task1.cyberolympiad.kz
@@ -1666,6 +1694,8 @@ ico{721427dd34030ef0c0458d1e5067395e}
 ## 6. Backdoor
 
 ### Условие
+
+![Task Description](/ico_qualifying_round/tasks/backdoor.webp)
 
 ```text
 Once a thriving community blog, this WordPress site was abandoned after its administrator vanished without a trace. The site remains online, filled with forgotten posts and an oddly persistent plugin installed by the last person to access the dashboard.
@@ -1751,6 +1781,8 @@ ico{258da6df9fcf12cf110d42dd77d7937f}
 ## 7. PixelMart
 
 ### Условие
+
+![Task Description](/ico_qualifying_round/tasks/pixelmart.webp)
 
 ```text
 The online store "PixelMart" gives out bonus codes using its own random generator and prides itself on its integrity.
@@ -1860,6 +1892,8 @@ ICO{f1gur3_1t_0ut_y0urs3lf_th3n_3xpl0it}
 
 ### Условие
 
+![Task Description](/ico_qualifying_round/tasks/vip_club.webp)
+
 ```text
 A private club issues guest passes based on a secret known only to them. You've been given a standard guest pass - enter as an admin.
 nc 94.131.84.228 33006
@@ -1924,6 +1958,8 @@ printf "S 757365723d6775657374266c6576656c3d626173696380000000000000000000000000
 ## 9. Journal Operator
 
 ### Условие
+
+![Task Description](/ico_qualifying_round/tasks/journal_operator.webp)
 
 ```text
 The program keeps a transaction log. Regular users are not allowed to use it - the service itself informs them of this upon login.
@@ -1993,6 +2029,8 @@ ICO{str1pp3d_but_st1ll_wr1t3abl3}
 ## 10. AEZAKMI
 
 ### Условие
+
+![Task Description](/ico_qualifying_round/tasks/aezakmi.webp)
 
 ```text
 An old arcade machine is asking for a name for its high score table.
