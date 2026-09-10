@@ -2,15 +2,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/ICO-2027-111827?style=for-the-badge" alt="ICO 2027">
-  <img src="https://img.shields.io/badge/CTF-Writeups-2563eb?style=for-the-badge" alt="CTF Writeups">
-  <img src="https://img.shields.io/badge/Qualifying%20Round-10%2F10%20Solved-16a34a?style=for-the-badge" alt="Qualifying Round Solved">
   <img src="https://img.shields.io/badge/Language-English%20%7C%20Russian-7c3aed?style=for-the-badge" alt="English and Russian">
+  <img src="https://img.shields.io/badge/CTF-Writeups-2563eb?style=for-the-badge" alt="CTF Writeups">
 </p>
 
 <p align="center">
-  Step-by-step writeups for the International Cybersecurity Olympiad 2027 CTF rounds.
-  <br>
-  Beginner-friendly, technical, and written from my own solving POV.
+  International Cybersecurity Olympiad 2027 CTF rounds
 </p>
 
 ---
@@ -21,29 +18,6 @@
 |---|---:|---|
 | ICO 2027 Qualifying Round | Complete, 10/10 tasks solved | [Open full writeup](./ico_qualifying_round/ico_ctf_writeup.md) |
 | ICO 2027 Finals | Folder prepared | [Open finals folder](./ico_finals/) |
-
-Quick language links for the qualifying round:
-
-| Language | Link |
-|---|---|
-| English | [Read in English](./ico_qualifying_round/ico_ctf_writeup.md#english) |
-| Russian | [Read in Russian](./ico_qualifying_round/ico_ctf_writeup.md#russian) |
-
----
-
-## Repository Structure
-
-```text
-ico-2027/
-├── ico_qualifying_round/
-│   ├── ico_ctf_writeup.md
-│   ├── rules.txt
-│   ├── tasks/
-│   └── screenshots / ranking images
-├── ico_finals/
-│   └── README.md
-└── README.md
-```
 
 ---
 
