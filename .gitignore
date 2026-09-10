@@ -1,7 +1,0 @@
-# CTF temporary files
-*.txt
-*.jpg
-*.sh
-
-# Local challenge repositories
-challenge/
