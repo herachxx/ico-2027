@@ -1,14 +1,24 @@
 # ICO 2027 CTF Writeups
 
 <p align="center">
+
+International Cybersecurity Olympiad 2027 CTF tasks
+
   <img src="https://img.shields.io/badge/ICO-2027-111827?style=for-the-badge" alt="ICO 2027">
   <img src="https://img.shields.io/badge/Language-English%20%7C%20Russian-7c3aed?style=for-the-badge" alt="English and Russian">
   <img src="https://img.shields.io/badge/CTF-Writeups-2563eb?style=for-the-badge" alt="CTF Writeups">
+
+  ![смишой гиф тепа бибизяна психует кабута я](бибизяна.gif)
+  
 </p>
 
-<p align="center">
-  International Cybersecurity Olympiad 2027 CTF rounds
-</p>
+---
+
+## Live Leaderboard of the contest
+
+![Fourths Place at Live ScoreBoard](ico_qualifying_round/contest_scoreboard.png)
+
+(I scored 4th place - herachxx)
 
 ---
 
