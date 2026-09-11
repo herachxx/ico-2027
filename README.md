@@ -2,7 +2,7 @@
 
 <p align="center">
 
-International Cybersecurity Olympiad 2027 CTF tasks
+International Cybersecurity Olympiad 2027
 
   <img src="https://img.shields.io/badge/ICO-2027-111827?style=for-the-badge" alt="ICO 2027">
   <img src="https://img.shields.io/badge/Language-English%20%7C%20Russian-7c3aed?style=for-the-badge" alt="English and Russian">
