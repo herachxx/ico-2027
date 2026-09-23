@@ -14,8 +14,6 @@ Writing this exactly how I actually solved it: what I noticed first, what tipped
 
 ## 0. Context and Glossary
 
-`ICO` stands for `International Cybersecurity Olympiad`. It's an international cybersecurity competition for students, and the Kazakhstan qualification round was run as a `CTF` in Jeopardy format.
-
 `CTF` stands for `Capture The Flag`. In cybersecurity, a flag is a secret string hidden inside a task - find it, submit it, get points.
 
 The usual flag format here was:
@@ -27,13 +25,13 @@ ico{something_here}
 
 `Jeopardy-style CTF` means there's a big board of separate tasks across different categories (like the Jeopardy game show board), and you pick whichever one you want to attack. Each task gives points and one or more flags.
 
-| Category | Meaning | Explanation |
-|---|---|---|
-| Web | Web security | Websites, login forms, APIs, cookies, WordPress, authorization bugs. |
-| Crypto | Cryptography | Weak hashes, signatures, random generators, or encryption logic. |
-| Reverse / Rev | Reverse engineering | Figuring out what a program does without having its original source code. |
-| Forensics | Digital forensics | Files, images, audio, metadata, PCAPs, hidden data. |
-| Pwn | Binary exploitation | Breaking compiled programs, usually via memory bugs. |
+| Category | Explanation |
+|---|---|
+| Web security | Websites, login forms, APIs, cookies, WordPress, authorization bugs. |
+| Cryptography | Weak hashes, signatures, random generators, or encryption logic. |
+| Rev or Reverse engineering | Figuring out what a program does without having its original source code. |
+| Digital forensics | Files, images, audio, metadata, PCAPs, hidden data. |
+| Pwn or Binary exploitation | Breaking compiled programs, usually via memory bugs. |
 
 Terms I leaned on a lot:
 
@@ -60,7 +58,7 @@ Tools I used:
 
 | Tool | Why I used it |
 |---|---|
-| `file` | Checks a file's *real* type using its magic bytes, not its extension. |
+| `file` | Checks a file's *real* type/extension using its magic bytes, not its extension. |
 | `strings` | Pulls out readable text sitting inside a file or binary. |
 | `xxd` / `od` | Dumps raw bytes as hex so I can eyeball headers and structure. |
 | `base64` | Encodes/decodes Base64 text. |
@@ -120,7 +118,7 @@ if (btoa(input.split('').reverse().join('')) === 'fTByM1pfbTBSZl8zJFIzdjNSe29jaQ
 }
 ```
 
-Line by line, because every symbol here is doing something:
+Line by line:
 
 | Code | Meaning |
 |---|---|
