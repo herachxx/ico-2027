@@ -2,7 +2,7 @@
 
 So this used to be `rules.txt`, which was literally just me copy-pasting a pile of Telegram announcements from the organizers into one file - three languages, congratulation spam, actual rules, and my own scribbled note all mixed together. It worked as a personal backup, but it's not something you'd want to actually read. This is that same info, same meaning, just sorted into something a human can skim.
 
-Original messages were mostly in Russian (with some Kazakh), sent through the official ICO/KazHackStan Telegram. What's below is a faithful clean-up/translation, not an official document - if anything here ever contradicts what the organizers post directly, believe them, not this file.
+(P.S. What's below is a faithful clean-up/translation, not an official document - if anything here ever contradicts what the organizers post directly, believe them, not this file.)
 
 ---
 
@@ -11,7 +11,7 @@ Original messages were mostly in Russian (with some Kazakh), sent through the of
 | Stage | When | Where | Format |
 |---|---|---|---|
 | Registration | closed Sept 9, 11:30 | `cyberolympiad.kz` | solo sign-up, code below |
-| Qualifying round (online) | Sept 9, 12:00 → Sept 10, 12:00 | the CTFd-style platform | Jeopardy CTF, solo, 24 hours |
+| Qualifying round (online) | Sept 9, 12:00 -9 Sept 10, 12:00 | the CTFd-style platform | Jeopardy CTF, solo, 24 hours |
 | Results | - | - | top 40 move on |
 | Finals (in person) | **Sept 29-30** | Astana, Palace of Independence, KazHackStan conference | 2 days, 3 tasks total |
 
@@ -34,8 +34,6 @@ Categories across both stages: **Web, Crypto, Reverse, Forensics, Pwn** (finals 
 
 Breaking any of this = instant disqualification, no warning shot.
 
-Registration code (for the record, this window is closed now): `ICOQualsCyberOlympiad`
-
 ---
 
 ## Finals rules (Sept 29-30, Astana) - the ones that actually matter right now
@@ -55,15 +53,11 @@ Third-party AI tools are banned outright during the finals - cloud assistants, l
 
 My own note from when I first read this: pretty sure it's `gpt-5-mini` wrapped in some custom front-end specifically so you *can't* upload files through it - just a locked-down chat box. And there's a hard cap of **100,000 tokens a day** on it.
 
-Translation for future-me: whatever I used to help write and organize *this repo* (yes, including Claude) is completely fine to use now, while prepping - none of that applies until the actual event starts. But the moment finals day begins, it's the sandboxed in-house chat or nothing. No exceptions, no "just this once."
-
 **Recording & audit (this is mandatory, not optional):**
-- OBS has to be recording your screen continuously for the *entire* competition day - all ~7 hours, with specific technical settings the organizers laid out in their own Appendix A (wasn't pasted into my original notes, so: check with the organizers directly before day one if unsure).
+- OBS has to be recording your screen continuously for the *entire* competition day - all ~7 hours, with specific technical settings the organizers laid out.
 - You upload a SHA-256 hash of the recording within 30 minutes of the day ending, and the actual recording file by 22:00 that same day.
 - No recording = you lose the benefit of the doubt in any dispute. If something looks weird and there's no footage, that's on you.
 - Organizers can ask you, at any point, to explain exactly how you got a flag. Be ready to actually explain your own solve path.
-
-**Logistics:** travel and lodging are on you (self-funded). If attending, there was a form to confirm your seat - needed partly so your school can officially excuse the absence.
 
 ---
 
