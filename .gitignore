@@ -1,0 +1,11 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# editor clutter
+*.swp
+*~
+
+# Python leaves this behind if you import sha256_ext.py instead of just reading it
+__pycache__/
+*.pyc
